@@ -30,9 +30,6 @@ public void setRecipeByNumber(int recipeByNumber) {
 		this.filePath = Paths.get(filePathString);
 	}
 
-	// public RecipeTextFile() {
-	// this("src/homemade/recipes/sample.txt");
-	// }
 	public RecipeTextFile(String fileName, String fillerVariable) {
 		this("src/homemade/recipes/" + fileName + ".txt");
 
